@@ -178,14 +178,7 @@ h2 {
 .hero-logo {
   aspect-ratio: 1;
   border-radius: 50%;
-  background: var(--black);
-  color: var(--yellow);
-  display: grid;
-  place-items: center;
-  text-align: center;
-  font-weight: 900;
-  font-size: 1.6rem;
-  padding: 30px;
+  background: #fff;
   border: 8px solid #fff;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
   overflow: hidden;
@@ -195,8 +188,8 @@ h2 {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: contain;
-  border-radius: 50%;
+  object-fit: cover;
+  transform: scale(1.3);
 }
 
 /* ===== Números ===== */
